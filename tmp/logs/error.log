@@ -1,0 +1,119 @@
+2015-06-25 13:23:26 Error: [MissingControllerException] Controller class Ad.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Ad.phpController',
+  'plugin' => NULL,
+)
+Request URL: /ad.php
+Stack Trace:
+#0 W:\bfp\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-25 13:56:28 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 W:\bfp\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-25 13:56:38 Error: [MissingLayoutException] Layout file "Layouts\BootstrapCake.bootstrap.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts\\BootstrapCake.bootstrap.ctp',
+)
+Request URL: /admin/locations
+Stack Trace:
+#0 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\View\View.php(514): View->_getLayoutFileName('BootstrapCake.b...')
+#1 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'BootstrapCake.b...')
+#2 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#3 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LocationsController), Object(CakeRequest))
+#5 W:\bfp\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-06-25 13:57:20 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 W:\bfp\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-25 13:59:26 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 W:\bfp\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-25 14:03:37 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [W:\bfp\View\Elements\google_map.ctp, line 2]
+2015-06-25 14:03:37 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /
+Stack Trace:
+#0 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 2, Array)
+#2 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 2, Array)
+#3 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-25 14:04:47 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [W:\bfp\View\Elements\google_map.ctp, line 21]
+2015-06-25 14:04:47 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /
+Stack Trace:
+#0 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 21, Array)
+#2 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 21, Array)
+#3 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-25 14:09:19 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [W:\bfp\View\Elements\google_map.ctp, line 22]
+2015-06-25 14:09:19 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /
+Stack Trace:
+#0 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22, Array)
+#2 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22, Array)
+#3 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-25 14:11:20 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [W:\bfp\View\Elements\google_map.ctp, line 22]
+2015-06-25 14:11:20 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /
+Stack Trace:
+#0 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22, Array)
+#2 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22, Array)
+#3 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-25 14:12:20 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [W:\bfp\View\Elements\google_map.ctp, line 22]
+2015-06-25 14:12:20 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /
+Stack Trace:
+#0 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22, Array)
+#2 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 22, Array)
+#3 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-25 14:12:31 Error: Fatal Error (4): syntax error, unexpected '{' in [W:\bfp\View\Elements\google_map.ctp, line 23]
+2015-06-25 14:12:31 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 23, Array)
+#2 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 23, Array)
+#3 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-25 14:12:44 Error: Fatal Error (4): syntax error, unexpected '{' in [W:\bfp\View\Elements\google_map.ctp, line 24]
+2015-06-25 14:12:44 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 24, Array)
+#2 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'W:\\bfp\\View\\Ele...', 24, Array)
+#3 W:\bfp\Vendor\cakephp\cakephp\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
