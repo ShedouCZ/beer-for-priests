@@ -25,6 +25,8 @@
     "grunt-react": "^0.12.0"
   },
   "dependencies": {
-    "autoprefixer-core": "^5.1.7"
+    "autoprefixer-core": "^5.1.7",
+    "leaflet": "^0.7.3",
+    "leaflet-editable": "^0.6.2"
   }
 }

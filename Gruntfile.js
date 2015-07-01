@@ -15,7 +15,13 @@ module.exports = function(grunt) {
 						src: '*',
 						dest:'webroot/fonts/',
 						filter:'isFile'
-					}
+					},
+					{	expand: true,
+						cwd: 'node_modules/leaflet/dist/images',
+						src: '*',
+						dest:'webroot/img/leaflet/',
+						filter:'isFile'
+					},
 				]
 			}
 		},
@@ -104,6 +110,7 @@ module.exports = function(grunt) {
 					'js/modernizr.custom.svg.js',   // // brings modernizr for defunctr
 					'Vendor/defunctr/src/defunctr.js',
 					'Vendor/moment-range/lib/moment-range.js',
+					'node_modules/leaflet/dist/leaflet-src.js',
 					'js/app.js',
 				],
 				dest: 'webroot/js/site-pre.js',
@@ -163,6 +170,7 @@ module.exports = function(grunt) {
 					'Vendor/bootstrap/dist/css/bootstrap.css',
 					'css/bootstrap-validation.css',
 					'Vendor/font-awesome/css/font-awesome.css',
+					'node_modules/leaflet/dist/leaflet.css',
 					'css/*.css'
 				],
 				dest: 'webroot/css/site.css',

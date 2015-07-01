@@ -13,6 +13,15 @@
  * @since         CakePHP(tm) v 0.10.8.2117
  */
 
+CakePlugin::load(array(
+	'BootstrapCake',
+	'Bs3Helpers',
+	//'Configuration',
+	'ClearCache',
+	//'RangeParser'
+	//'DebugKit',
+));
+
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
 
@@ -96,3 +105,58 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+Configure::write('Bs3.Form.styles', array(
+	'horizontal' => array(
+		'formDefaults' => array(
+			//'submitDiv' => 'col-sm-10 col-sm-offset-2' // this adds another submit
+		),
+		'inputDefaults' => array(
+			'label' => array(
+				'class' => 'col-sm-2 control-label'
+			),
+			'wrap' => 'col-sm-8 input-group',
+			'div' => null,
+		)
+	),
+	'inline' => array(
+		'inputDefaults' => array(
+			'label' => array(
+				'class' => 'sr-only'
+			),
+		)
+	)
+));
+
+// List of languages you want to support
+Configure::write('Config.languages', array('ces', 'eng', 'rus'));
+$language = 'ces';
+Configure::write('Config.language', $language);
+// Config.language will be yet updated in AppController::beforeFilter according to user session
+
+$tx = array(
+	'ces' => 'cs_CZ',
+	'eng' => 'en_US',
+	'rus' => 'ru_RU'
+);
+// initial setting
+($locale = @$tx[$language]) || ($locale = 'cs_CZ');
+Configure::write('Config.locale', $locale);
+// Config.locale will be yet updated in AppController::beforeFilter according to user session
+
+Configure::load('version');
+
+if (0) try {
+	// Configuration plugin - load values into Configure
+	App::uses('ClassRegistry', 'Utility');
+	$Configuration = ClassRegistry::init('Configuration.Configuration');
+	$Configuration->load('Cfg');
+} catch (Exception $e) {
+	print($e->getMessage());
+}
+
+// load payment gateway settings
+//Configure::load('gp/gp_merchant');
+
+// css version bump string
+Configure::load('version');
